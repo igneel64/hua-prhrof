@@ -28,7 +28,7 @@ gem 'jquery-turbolinks'
 gem 'foundation-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'font-awesome-sass', '~> 4.5.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

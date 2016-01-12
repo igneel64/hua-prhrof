@@ -56,6 +56,114 @@
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import 'foundation/functions';
+ 
+ $maincolor:#384251;
+
+ $off-canvas-bg:rgb(237, 121, 101);
+
+body{
+    height:100%;
+    //overflow:hidden;
+}
+
+.off-canvas-submenu{
+    list-style:none;
+}
+
+.titlespan{
+    font-size: 4rem;
+    display: inline-block;
+}
+
+.asidelist{
+    li{
+        a{
+            color: #FBFBFB;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 1.4em;
+            -webkit-transition:color 500ms ease-out;
+            -moz-transition:color 500ms ease-out;
+            -o-transition:color 500ms ease-out;
+            transition:color 500ms ease-out;
+            
+            &:hover{
+                color:black;
+            }
+        }
+    }
+}
+
+
+.offmenubut{
+    color: white;
+    font-size: 2rem;
+    positioN: relative;
+    font-weight: bold;
+    left: 4%;
+    font-family: 'Permanent Marker', cursive;
+    &:hover{
+        color:white;
+    }
+}
+
+.desk{
+    height:600px;
+    width:900px;
+}
+
+.inner-wrap{
+        background-color:#6D43BE;
+}
+
+.headtext{
+            margin-left: 1em;
+            p{
+                color: #AFAFAF;
+                text-align:center;
+            }
+}
+
+
+
+.headtextcontent{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-align: CENTER;
+    display: inline-block;
+    position: relative;
+    font-size: 4rem;
+    margin-top: 50%;
+}
+
+.flexcont{
+    margin-bottom:30px;
+    margin-top:30px;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:stretch;
+}
+
+.item1,.item2,.item3,.item4{
+    width:25%;
+    color:white;
+    text-align:center;
+    height:350px;
+    padding:50px;
+    i{
+        font-size:5rem;
+    }
+    h2{
+        color:white;
+    }
+}
+
+.item1{background-color:lighten( $maincolor,10%);}
+.item2{background-color:lighten( $maincolor,17%);}
+.item3{background-color:lighten( $maincolor,24%);}
+.item4{background-color:lighten( $maincolor,31%);}
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
@@ -79,7 +187,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-// $row-width: rem-calc(1000);
+ $row-width: rem-calc(1200);
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
 
@@ -859,8 +967,8 @@ $include-html-global-classes: $include-html-classes;
 // Off Canvas Menu Variables
 // $off-canvas-width: rem-calc(250);
 // $off-canvas-bg: $oil;
-// $off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -30%);
-// $off-canvas-bg-active: scale-color($tabbar-bg, $lightness: -30%);
+ //$off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -30%);
+ //$off-canvas-bg-active: scale-color($tabbar-bg, $lightness: -30%);
 
 // Off Canvas Menu List Variables
 // $off-canvas-label-padding: .3rem rem-calc(15);
