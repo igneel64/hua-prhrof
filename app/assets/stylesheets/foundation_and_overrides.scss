@@ -79,7 +79,8 @@ body{
     li{
         a{
             color: #FBFBFB;
-            font-family: 'Permanent Marker', cursive;
+            font-family: 'Raleway', sans-serif;
+              font-weight:500;
             font-size: 1.4em;
             -webkit-transition:color 500ms ease-out;
             -moz-transition:color 500ms ease-out;
@@ -100,7 +101,9 @@ body{
     positioN: relative;
     font-weight: bold;
     left: 4%;
-    font-family: 'Permanent Marker', cursive;
+    //font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
     &:hover{
         color:white;
     }
@@ -126,7 +129,9 @@ body{
 
 
 .headtextcontent{
-    font-family: 'Permanent Marker', cursive;
+    //font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
     color: white;
     text-align: CENTER;
     display: inline-block;
@@ -164,6 +169,18 @@ body{
 .item2{background-color:lighten( $maincolor,17%);}
 .item3{background-color:lighten( $maincolor,24%);}
 .item4{background-color:lighten( $maincolor,31%);}
+
+.textbox{
+    font-family: 'Oranienbaum', serif;
+    color:white;
+    p{
+        font-size:1.1rem;
+    }
+}
+
+.titlebox{
+    font-family: 'Oranienbaum', serif;
+}
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
