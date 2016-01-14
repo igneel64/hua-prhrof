@@ -79,7 +79,7 @@ body{
     li{
         a{
             color: #FBFBFB;
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Permanent Marker', cursive;
               font-weight:500;
             font-size: 1.4em;
             -webkit-transition:color 500ms ease-out;
@@ -101,8 +101,7 @@ body{
     positioN: relative;
     font-weight: bold;
     left: 4%;
-    //font-family: 'Permanent Marker', cursive;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-weight:500;
     &:hover{
         color:white;
@@ -129,8 +128,7 @@ body{
 
 
 .headtextcontent{
-    //font-family: 'Permanent Marker', cursive;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-weight:500;
     color: white;
     text-align: CENTER;
@@ -171,14 +169,24 @@ body{
 .item4{background-color:lighten( $maincolor,31%);}
 
 .textbox{
+    padding:15px;
     font-family: 'Oranienbaum', serif;
     color:white;
     p{
         font-size:1.1rem;
     }
+    border-bottom:1px solid #FF8600;
 }
 
 .titlebox{
+    h1, h2{
+        color:#FF8600;
+    }
+    
+    i{
+        color:#F0DFBD;
+        margin-left:10px;
+    }
     font-family: 'Oranienbaum', serif;
 }
 

@@ -23,4 +23,17 @@ class StaticPagesController < ApplicationController
   end
   def page10
   end
+  def page11
+  end
+  def page12
+  end
+  def page13
+  end
+  def page14
+  end
+  def page15
+  end
+  
+  
+  
 end

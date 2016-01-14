@@ -10,6 +10,11 @@ Rails.application.routes.draw do
   get 'static_pages/page8'
   get 'static_pages/page9'
   get 'static_pages/page10'
+  get 'static_pages/page11'
+  get 'static_pages/page12'
+  get 'static_pages/page13'
+  get 'static_pages/page14'
+  get 'static_pages/page15'
   
   root 'static_pages#index'
 
